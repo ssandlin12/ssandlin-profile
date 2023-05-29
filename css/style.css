@@ -52,7 +52,7 @@ nav ul {
 
 #hero h1 {
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 400;
     max-width: 50%;
 }
 
@@ -60,14 +60,30 @@ nav ul {
     color: grey;
 }
 
+/* have the examples section flex horizontally with space between */
 #examples {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: start;
     margin: 48px;
 }
 
 #examples img {
     width: 300px;
     border-radius: 8px;
+    margin-right: 48px;
+}
+
+#examples h3 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+#examples p {
+    color: grey;
+    font-size: 13px;
+    max-width: 300px;
+    line-height: 18px;
+    margin-bottom: 48px;
 }
