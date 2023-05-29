@@ -1,0 +1,73 @@
+/* text style should be Figtree font with a fallback of sans-serif */
+body {
+    font-family: 'Figtree', sans-serif;
+}
+
+/* header should have both the img and nav aligned horizontally */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+/* logo should be left aligned with a margin of 48px */
+#logo {
+    margin-left: 48px;
+    width: 36px;
+    height: 36px;
+}
+
+/* links should have no text decoration and be separated by a pipe */
+a {
+    text-decoration: none;
+    margin: 0 0.5em;
+    color: grey
+}
+
+/* links should be black when hovered over */
+a:hover {
+    color: black;
+}
+
+/* nav should flex horizontally, be center aligned vertically */
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 48px;
+}
+
+/* nav ul should be a horizontal list with no bullets */
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+#hero {
+    text-align: flex-start;
+    margin-top: 48px;
+    margin: 48px;
+}
+
+#hero h1 {
+    font-size: 24px;
+    font-weight: 600;
+    max-width: 50%;
+}
+
+#hero p {
+    color: grey;
+}
+
+#examples {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 48px;
+}
+
+#examples img {
+    width: 300px;
+    border-radius: 8px;
+}
